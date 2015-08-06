@@ -1,0 +1,884 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+<<<<<<< HEAD
+$C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+=======
+$C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+>>>>>>> origin/master
+end_init CODE 0 0 0 3 2
+config CONFIG 0 2007 2007 1 2
+$dist/default/production\lcd.X.production.obj
+cinit CODE 0 7F8 7F8 8 2
+<<<<<<< HEAD
+text13 CODE 0 37A 37A 1A 2
+text12 CODE 0 394 394 1A 2
+text11 CODE 0 481 481 5B 2
+text10 CODE 0 3FA 3FA 39 2
+text9 CODE 0 4DC 4DC 5B 2
+text8 CODE 0 3AE 3AE 23 2
+text7 CODE 0 537 537 68 2
+text6 CODE 0 3D1 3D1 29 2
+text5 CODE 0 6F1 6F1 107 2
+text4 CODE 0 372 372 8 2
+text3 CODE 0 59F 59F 8C 2
+text2 CODE 0 433 433 4E 2
+text1 CODE 0 36B 36B 7 2
+maintext CODE 0 62B 62B C6 2
+cstackBANK0 BANK0 1 20 20 1D 1
+cstackCOMMON COMMON 1 70 70 E 1
+bssBANK0 BANK0 1 3D 3D 4 1
+=======
+text8 CODE 0 5E6 5E6 1A 2
+text7 CODE 0 600 600 1A 2
+text6 CODE 0 5DB 5DB B 2
+text5 CODE 0 6CC 6CC 5B 2
+text4 CODE 0 675 675 57 2
+text3 CODE 0 63C 63C 39 2
+text2 CODE 0 61A 61A 22 2
+text1 CODE 0 5D4 5D4 7 2
+maintext CODE 0 727 727 D1 2
+cstackBANK0 BANK0 1 20 20 7 1
+cstackCOMMON COMMON 1 70 70 E 1
+bssBANK0 BANK0 1 27 27 4 1
+strings STRING 0 3 3 4B 2
+>>>>>>> origin/master
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+<<<<<<< HEAD
+BANK0 0041-006F 1
+BANK1 00A0-00EF 1
+BANK2 0110-016F 1
+BANK3 0190-01EF 1
+CODE 0003-036A 2
+CODE 0800-1FFF 2
+CONST 0003-036A 2
+CONST 0800-1FFF 2
+EEDATA 2100-21FF 2
+ENTRY 0003-036A 2
+ENTRY 0800-1FFF 2
+IDLOC 2000-2003 2
+RAM 0041-006F 1
+=======
+BANK0 002B-006F 1
+BANK1 00A0-00EF 1
+BANK2 0110-016F 1
+BANK3 0190-01EF 1
+CODE 004E-05D3 2
+CODE 0800-1FFF 2
+CONST 004E-05D3 2
+CONST 0800-1FFF 2
+EEDATA 2100-21FF 2
+ENTRY 004E-05D3 2
+ENTRY 0800-1FFF 2
+IDLOC 2000-2003 2
+RAM 002B-006F 1
+>>>>>>> origin/master
+RAM 00A0-00EF 1
+RAM 0110-016F 1
+RAM 0190-01EF 1
+SFR0 0000-001F 1
+SFR1 0080-009F 1
+SFR2 0100-010F 1
+SFR3 0180-018F 1
+STACK 0110-016F 1
+<<<<<<< HEAD
+STRCODE 0003-036A 2
+STRCODE 0800-1FFF 2
+STRING 0003-036A 2
+=======
+STRCODE 004E-05D3 2
+STRCODE 0800-1FFF 2
+STRING 004E-05D3 2
+>>>>>>> origin/master
+STRING 0800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\lcd.X.production.obj
+<<<<<<< HEAD
+"C:\Program Files (x86)\Microchip\xc8\v1.30\include\pic16f877a.h":2758 0 text0 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":10 36B text1 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":12 36B text1 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":14 36E text1 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":16 36F text1 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":18 370 text1 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":20 371 text1 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftneg.c":15 372 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftneg.c":17 372 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftneg.c":18 377 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftneg.c":20 379 text4 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":21 37A text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":23 37B text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":24 37D text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":25 381 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":26 381 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":28 384 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":29 386 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":30 388 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":31 388 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":33 389 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":34 38B text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":35 38D text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":36 38D text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":38 38E text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":39 390 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":40 392 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":41 392 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":42 394 text13 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":43 394 text12 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":45 395 text12 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":46 398 text12 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":47 39E text12 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":48 3A1 text12 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":49 3AA text12 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":50 3AD text12 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":4 3AE text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":20 3AE text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":22 3B0 text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":23 3B2 text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":24 3B8 text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":25 3BF text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":26 3C6 text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":30 3CA text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c":37 3D1 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c":41 3D1 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c":31 3D1 text8 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c":42 3D4 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c":43 3D6 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c":44 3DE text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c":46 3E0 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c":47 3FA text6 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":99 3FA text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":103 3FB text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":104 400 text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":105 405 text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":106 408 text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":107 416 text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":108 419 text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":109 41E text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":110 421 text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":111 427 text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":112 42A text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":113 42F text10 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":114 432 text10 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\modf.c":8 433 text2 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\modf.c":26 433 text2 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\modf.c":27 45A text2 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\modf.c":32 481 text2 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":79 481 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":82 481 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":83 487 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":84 490 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":85 496 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":86 49F text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":87 4A5 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":88 4AD text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":90 4B3 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":91 4B9 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":92 4BF text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":93 4C5 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":94 4CB text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":95 4D1 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":96 4D7 text11 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\lcd.h":97 4DB text11 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":6 4DC text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":14 4DC text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":15 4DD text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":16 4DF text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":17 4E4 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":19 4E6 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":20 4E8 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":21 4ED text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":23 4F1 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":24 4F3 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":25 4F7 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":26 4F9 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":27 4FB text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":28 502 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":26 506 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":31 507 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":32 50E text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":33 516 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":34 51C text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":36 51D text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":37 524 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":39 528 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":40 52B text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":41 530 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c":42 537 text9 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":62 537 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":64 537 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":65 53F text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":67 546 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":68 54A text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":66 552 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":71 557 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":72 55B text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":73 565 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":70 56D text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":74 56D text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":76 572 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":77 574 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":75 57C text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":79 57E text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":80 580 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":81 586 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":82 588 text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":83 59A text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":84 59D text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c":86 59E text7 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":44 59F text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":49 59F text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":50 5AE text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":51 5B7 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":52 5C9 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":53 5CA text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":54 5D0 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":55 5D7 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":56 5D9 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":57 5DB text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":58 5E0 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":60 5E9 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":61 5F2 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":63 5F9 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":64 5FD text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":66 606 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":67 60F text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":65 611 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":70 614 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":71 617 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":72 622 text3 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c":73 62B text3 CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":24 62B maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":27 62B maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":28 630 maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":30 635 maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":36 63D maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":37 667 maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":39 676 maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":40 68F maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":42 6AB maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":43 6B3 maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":37 6D5 maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":48 6E8 maintext CODE
+"C:\Users\Hendrix\Desktop\LCD pic\lcd_pic16f\lcd.X\main.c":96 6EE maintext CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":86 6F1 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":90 6F1 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":91 6FF text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":92 70B text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":93 71A text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":94 721 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":96 730 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":97 734 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":98 735 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":99 736 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":100 737 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":101 738 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":102 739 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":103 73F text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":104 740 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":106 746 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":110 74A text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":111 752 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":112 754 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":114 75F text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":115 767 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":113 76B text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":117 770 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":121 774 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":122 77C text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":123 77E text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":125 789 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":126 791 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":124 795 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":129 799 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":131 79B text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":132 7A1 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":134 7AB text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":136 7AD text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":137 7B3 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":139 7BD text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":140 7BE text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":141 7CC text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":142 7CE text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":143 7D4 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":144 7DE text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":146 7E0 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c":148 7F8 text5 CODE
+"C:\Users\Hendrix\AppData\Local\Temp\s8t8.":222 7F8 cinit CODE
+"C:\Users\Hendrix\AppData\Local\Temp\s8t8.":225 7F8 cinit CODE
+"C:\Users\Hendrix\AppData\Local\Temp\s8t8.":238 7F8 cinit CODE
+"C:\Users\Hendrix\AppData\Local\Temp\s8t8.":239 7F9 cinit CODE
+"C:\Users\Hendrix\AppData\Local\Temp\s8t8.":240 7FA cinit CODE
+"C:\Users\Hendrix\AppData\Local\Temp\s8t8.":241 7FB cinit CODE
+"C:\Users\Hendrix\AppData\Local\Temp\s8t8.":247 7FC cinit CODE
+"C:\Users\Hendrix\AppData\Local\Temp\s8t8.":248 7FC cinit CODE
+"C:\Users\Hendrix\AppData\Local\Temp\s8t8.":249 7FD cinit CODE
+=======
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":10 5D4 text1 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":12 5D4 text1 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":14 5D7 text1 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":16 5D8 text1 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":18 5D9 text1 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":20 5DA text1 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":52 5DB text6 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":54 5DB text6 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":55 5E1 text6 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":56 5E5 text6 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":21 5E6 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":23 5E7 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":24 5E9 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":25 5ED text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":26 5ED text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":28 5F0 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":29 5F2 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":30 5F4 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":31 5F4 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":33 5F5 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":34 5F7 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":35 5F9 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":36 5F9 text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":38 5FA text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":39 5FC text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":40 5FE text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":41 5FE text8 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":43 600 text7 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":45 601 text7 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":46 604 text7 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":47 60A text7 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":48 60D text7 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":49 616 text7 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":50 619 text7 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":116 61A text2 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":120 61B text2 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":121 628 text2 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":120 635 text2 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":99 63C text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":103 63D text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":104 642 text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":105 647 text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":106 64A text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":107 658 text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":108 65B text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":109 660 text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":110 663 text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":111 669 text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":112 66C text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":113 671 text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":114 674 text3 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":58 675 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":61 676 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":63 67A text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":64 681 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":65 690 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":66 696 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":67 69C text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":68 6A0 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":69 6A1 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":71 6A5 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":72 6AC text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":73 6BB text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":74 6C1 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":75 6C7 text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":76 6CB text4 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":79 6CC text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":82 6CC text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":83 6D2 text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":84 6DB text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":85 6E1 text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":86 6EA text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":87 6F0 text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":88 6F8 text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":90 6FE text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":91 704 text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":92 70A text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":93 710 text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":94 716 text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":95 71C text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":96 722 text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\lcd.h":97 726 text5 CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":23 727 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":26 727 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":27 72C maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":34 731 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":35 736 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":36 73E maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":37 744 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":38 74C maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":39 752 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":40 761 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":43 766 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":45 775 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":46 77D maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":47 783 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":48 78B maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":49 795 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":50 79B maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":51 7AA maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":43 7AF maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":53 7C2 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":55 7C7 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":56 7CF maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":57 7D5 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":58 7DD maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":59 7E3 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":60 7F2 maintext CODE
+"C:\Users\ricardo\Desktop\LCDInterfacing\lcd_pic16f\lcd.X\main.c":32 7F7 maintext CODE
+"C:\Users\ricardo\AppData\Local\Temp\s6c0.":320 7F8 cinit CODE
+"C:\Users\ricardo\AppData\Local\Temp\s6c0.":323 7F8 cinit CODE
+"C:\Users\ricardo\AppData\Local\Temp\s6c0.":336 7F8 cinit CODE
+"C:\Users\ricardo\AppData\Local\Temp\s6c0.":337 7F9 cinit CODE
+"C:\Users\ricardo\AppData\Local\Temp\s6c0.":338 7FA cinit CODE
+"C:\Users\ricardo\AppData\Local\Temp\s6c0.":339 7FB cinit CODE
+"C:\Users\ricardo\AppData\Local\Temp\s6c0.":345 7FC cinit CODE
+"C:\Users\ricardo\AppData\Local\Temp\s6c0.":346 7FC cinit CODE
+"C:\Users\ricardo\AppData\Local\Temp\s6c0.":347 7FD cinit CODE
+>>>>>>> origin/master
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+___attoft@c 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__end_of___ftneg 6F4 0 CODE 0 text4 dist/default/production\lcd.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD0 40 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD1 41 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD4 44 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD5 45 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD6 46 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD7 47 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__S0 2008 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__Hintentry 0 0 CODE 0 intentry -
+__Lintentry 0 0 CODE 0 intentry -
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+<<<<<<< HEAD
+_Lcd_Write_Char 7F4 0 CODE 0 text10 dist/default/production\lcd.X.production.obj
+___ftadd@f1 78 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__end_of___awdiv A6E 0 CODE 0 text9 dist/default/production\lcd.X.production.obj
+___ftneg@f1 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+___ftadd@f2 7B 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+_modf 866 0 CODE 0 text2 dist/default/production\lcd.X.production.obj
+_main C56 0 CODE 0 maintext dist/default/production\lcd.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+=======
+__end_of_Lcd_Write_String C78 0 CODE 0 text2 dist/default/production\lcd.X.production.obj
+_Lcd_Write_Char C78 0 CODE 0 text3 dist/default/production\lcd.X.production.obj
+main@NuevaVar 23 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+_main E4E 0 CODE 0 maintext dist/default/production\lcd.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+>>>>>>> origin/master
+btemp 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ltemp 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+<<<<<<< HEAD
+start 0 0 CODE 0 init C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+?___ftadd 78 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+___fttol@f1 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+___fttol@lval 79 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__end_of_pic_init 6E4 0 CODE 0 text1 dist/default/production\lcd.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+=======
+start 0 0 CODE 0 init C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+__end_of_pic_init BB6 0 CODE 0 text1 dist/default/production\lcd.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+>>>>>>> origin/master
+_TRISD 88 0 ABS 0 - dist/default/production\lcd.X.production.obj
+main@base 37 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+ltemp0 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp0 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ltemp1 82 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp1 81 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp1 80 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ltemp2 86 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp2 84 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp2 82 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ltemp3 80 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp3 87 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp3 84 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp4 7F 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp4 86 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp5 88 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp6 7F 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__Hconfig 4010 0 CONFIG 0 config -
+__Lconfig 400E 0 CONFIG 0 config -
+<<<<<<< HEAD
+?___ftneg 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Init 9B8 0 CODE 0 text11 dist/default/production\lcd.X.production.obj
+___ftpack A6E 0 CODE 0 text7 dist/default/production\lcd.X.production.obj
+?_modf 27 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+main@x 3B 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__size_of___ftadd 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+_Lcd_Init 902 0 CODE 0 text11 dist/default/production\lcd.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+__end_of_Lcd_Write_Char 866 0 CODE 0 text10 dist/default/production\lcd.X.production.obj
+?___fttol 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+___int_sp 0 0 STACK 2 stack C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+_pic_init 6D6 0 CODE 0 text1 dist/default/production\lcd.X.production.obj
+?___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+___attoft 7A2 0 CODE 0 text6 dist/default/production\lcd.X.production.obj
+_Lcd_Port 6F4 0 CODE 0 text13 dist/default/production\lcd.X.production.obj
+modf@iptr 2A 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+=======
+__end_of_Lcd_Init E4E 0 CODE 0 text5 dist/default/production\lcd.X.production.obj
+__end_of__stringtab 12 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+Lcd_Set_Cursor@b 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__end_of__stringdata 9C 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+_Lcd_Init D98 0 CODE 0 text5 dist/default/production\lcd.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+__end_of_Lcd_Write_Char CEA 0 CODE 0 text3 dist/default/production\lcd.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+___int_sp 0 0 STACK 2 stack C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+_pic_init BA8 0 CODE 0 text1 dist/default/production\lcd.X.production.obj
+_Lcd_Port BCC 0 CODE 0 text8 dist/default/production\lcd.X.production.obj
+>>>>>>> origin/master
+__Habs1 0 0 ABS 0 abs1 -
+__Labs1 0 0 ABS 0 abs1 -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+<<<<<<< HEAD
+__end_of___ftpack B3E 0 CODE 0 text7 dist/default/production\lcd.X.production.obj
+?___ftpack 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+main@recibido 31 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__size_of___fttol 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+___ftadd@sign 24 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+modf@value 27 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+Lcd_Write_Char@y 73 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+stackhi 0 0 ABS 0 - C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+_estado 3F 0 BANK0 1 bssBANK0 dist/default/production\lcd.X.production.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+stacklo 0 0 ABS 0 - C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+__Hinit 0 0 CODE 0 init -
+__Linit 0 0 CODE 0 init -
+___wmul 75C 0 CODE 0 text8 dist/default/production\lcd.X.production.obj
+__end_of_main DE2 0 CODE 0 maintext dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Cmd 75C 0 CODE 0 text12 dist/default/production\lcd.X.production.obj
+=======
+_Lcd_Write_String C34 0 CODE 0 text2 dist/default/production\lcd.X.production.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+_Lcd_Clear BB6 0 CODE 0 text6 dist/default/production\lcd.X.production.obj
+Lcd_Write_Char@y 73 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+stackhi 0 0 ABS 0 - C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+_estado 29 0 BANK0 1 bssBANK0 dist/default/production\lcd.X.production.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+stacklo 0 0 ABS 0 - C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+__Hinit 0 0 CODE 0 init -
+__Linit 0 0 CODE 0 init -
+__end_of_main FF0 0 CODE 0 maintext dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Cmd C34 0 CODE 0 text7 dist/default/production\lcd.X.production.obj
+>>>>>>> origin/master
+__Htext 0 0 ABS 0 text -
+__Ltext 0 0 ABS 0 text -
+___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__size_of___ftneg 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\lcd.X.production.obj
+<<<<<<< HEAD
+___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+main@entero_decena 2D 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+=======
+__size_of_Lcd_Clear 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__stringtab 6 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+>>>>>>> origin/master
+_TRISAbits 85 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__end_of___ftadd FF0 0 CODE 0 text5 dist/default/production\lcd.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+__Lstrings 0 0 ABS 0 strings -
+<<<<<<< HEAD
+?___attoft 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__size_of_modf 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+=======
+__pstrings 6 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+>>>>>>> origin/master
+__Hbank0 0 0 ABS 0 bank0 -
+__Lbank0 0 0 ABS 0 bank0 -
+_Lcd_Set_Cursor CEA 0 CODE 0 text4 dist/default/production\lcd.X.production.obj
+__Hbank1 0 0 ABS 0 bank1 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Lbank3 0 0 ABS 0 bank3 -
+___latbits 2 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+__Lpowerup 0 0 CODE 0 powerup -
+<<<<<<< HEAD
+__ptext0 0 0 CODE 0 text0 dist/default/production\lcd.X.production.obj
+__ptext1 6D6 0 CODE 0 text1 dist/default/production\lcd.X.production.obj
+__ptext2 866 0 CODE 0 text2 dist/default/production\lcd.X.production.obj
+__ptext3 B3E 0 CODE 0 text3 dist/default/production\lcd.X.production.obj
+__ptext4 6E4 0 CODE 0 text4 dist/default/production\lcd.X.production.obj
+__ptext5 DE2 0 CODE 0 text5 dist/default/production\lcd.X.production.obj
+__ptext6 7A2 0 CODE 0 text6 dist/default/production\lcd.X.production.obj
+__ptext7 A6E 0 CODE 0 text7 dist/default/production\lcd.X.production.obj
+__ptext8 75C 0 CODE 0 text8 dist/default/production\lcd.X.production.obj
+__ptext9 9B8 0 CODE 0 text9 dist/default/production\lcd.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__Lclrtext 0 0 ABS 0 clrtext -
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\lcd.X.production.obj
+_Lcd_Cmd 728 0 CODE 0 text12 dist/default/production\lcd.X.production.obj
+___ftadd DE2 0 CODE 0 text5 dist/default/production\lcd.X.production.obj
+_TiempoPulso 3D 0 BANK0 1 bssBANK0 dist/default/production\lcd.X.production.obj
+=======
+__ptext1 BA8 0 CODE 0 text1 dist/default/production\lcd.X.production.obj
+__ptext2 C34 0 CODE 0 text2 dist/default/production\lcd.X.production.obj
+__ptext3 C78 0 CODE 0 text3 dist/default/production\lcd.X.production.obj
+__ptext4 CEA 0 CODE 0 text4 dist/default/production\lcd.X.production.obj
+__ptext5 D98 0 CODE 0 text5 dist/default/production\lcd.X.production.obj
+__ptext6 BB6 0 CODE 0 text6 dist/default/production\lcd.X.production.obj
+__ptext7 C00 0 CODE 0 text7 dist/default/production\lcd.X.production.obj
+Lcd_Set_Cursor@a 77 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__ptext8 BCC 0 CODE 0 text8 dist/default/production\lcd.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__Lclrtext 0 0 ABS 0 clrtext -
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\lcd.X.production.obj
+Lcd_Write_String@a 77 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+Lcd_Write_String@i 75 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+_Lcd_Cmd C00 0 CODE 0 text7 dist/default/production\lcd.X.production.obj
+Lcd_Set_Cursor@temp 7C 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+_TiempoPulso 27 0 BANK0 1 bssBANK0 dist/default/production\lcd.X.production.obj
+>>>>>>> origin/master
+__Hidloc 0 0 IDLOC 0 idloc -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Hstack 0 0 STACK 2 stack -
+__Lstack 0 0 STACK 2 stack -
+<<<<<<< HEAD
+___ftneg 6E4 0 CODE 0 text4 dist/default/production\lcd.X.production.obj
+___ftpack@sign 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+___ftadd@exp1 26 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__end_of___attoft 7F4 0 CODE 0 text6 dist/default/production\lcd.X.production.obj
+___fttol B3E 0 CODE 0 text3 dist/default/production\lcd.X.production.obj
+?___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__Hcinit 1000 0 CODE 0 cinit -
+__Lcinit FF0 0 CODE 0 cinit -
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_main$517 34 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+___awdiv 9B8 0 CODE 0 text9 dist/default/production\lcd.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+___fttol@exp1 7D 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+___attoft@sign 25 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+___ftpack@arg 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+___ftadd@exp2 25 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__pbssBANK0 3D 0 BANK0 1 bssBANK0 dist/default/production\lcd.X.production.obj
+__end_of_modf 902 0 CODE 0 text2 dist/default/production\lcd.X.production.obj
+__ptext10 7F4 0 CODE 0 text10 dist/default/production\lcd.X.production.obj
+__ptext11 902 0 CODE 0 text11 dist/default/production\lcd.X.production.obj
+__ptext12 728 0 CODE 0 text12 dist/default/production\lcd.X.production.obj
+__ptext13 6F4 0 CODE 0 text13 dist/default/production\lcd.X.production.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__size_of_pic_init 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+main@entero 39 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+___fttol@sign1 78 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+=======
+__Hspace_0 2008 0 ABS 0 - -
+__Lspace_0 0 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Hcinit 1000 0 CODE 0 cinit -
+__Lcinit FF0 0 CODE 0 cinit -
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Write_String 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__Hspace_3 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__size_of_main 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Set_Cursor D98 0 CODE 0 text4 dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Set_Cursor 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Clear BCC 0 CODE 0 text6 dist/default/production\lcd.X.production.obj
+Lcd_Set_Cursor@z 78 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__pbssBANK0 27 0 BANK0 1 bssBANK0 dist/default/production\lcd.X.production.obj
+__size_of_pic_init 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+main@numero 25 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+>>>>>>> origin/master
+__Hend_init 6 0 CODE 0 end_init -
+__Lend_init 0 0 CODE 0 end_init -
+Lcd_Write_Char@a 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Init 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+___ftpack@exp 73 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+<<<<<<< HEAD
+intlevel0 0 0 CODE 0 functab C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__size_of___attoft 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+intlevel1 0 0 CODE 0 functab C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+intlevel2 0 0 CODE 0 functab C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+intlevel3 0 0 CODE 0 functab C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+Lcd_Write_Char@temp 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+intlevel4 0 0 CODE 0 functab C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+__end_of_Lcd_Port 728 0 CODE 0 text13 dist/default/production\lcd.X.production.obj
+intlevel5 0 0 CODE 0 functab C:\Users\Hendrix\AppData\Local\Temp\s8t8.obj
+=======
+__stringdata 12 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+intlevel1 0 0 CODE 0 functab C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+intlevel2 0 0 CODE 0 functab C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+intlevel3 0 0 CODE 0 functab C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+Lcd_Write_Char@temp 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+intlevel4 0 0 CODE 0 functab C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+__end_of_Lcd_Port C00 0 CODE 0 text8 dist/default/production\lcd.X.production.obj
+intlevel5 0 0 CODE 0 functab C:\Users\ricardo\AppData\Local\Temp\s6c0.obj
+>>>>>>> origin/master
+__size_of_Lcd_Port 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Write_Char 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__end_of___wmul 7A2 0 CODE 0 text8 dist/default/production\lcd.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+start_initialization FF0 0 CODE 0 cinit dist/default/production\lcd.X.production.obj
+___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Lmaintext 0 0 ABS 0 maintext -
+<<<<<<< HEAD
+__pmaintext C56 0 CODE 0 maintext dist/default/production\lcd.X.production.obj
+__end_of___fttol C56 0 CODE 0 text3 dist/default/production\lcd.X.production.obj
+=======
+__pmaintext E4E 0 CODE 0 maintext dist/default/production\lcd.X.production.obj
+>>>>>>> origin/master
+__initialization FF0 0 CODE 0 cinit dist/default/production\lcd.X.production.obj
+__stringbase 10 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+Lcd_Cmd@a 73 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+<<<<<<< HEAD
+___wmul@product 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+=======
+Lcd_Set_Cursor@y 7A 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+>>>>>>> origin/master
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+Lcd_Port@a 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+main@decimal 2F 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect in on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 3 2
+cinit 0 7F8 FF0 8 2
+config 0 2007 400E 1 2
+cstackCOMMON 1 70 70 E 1
+<<<<<<< HEAD
+cstackBANK0 1 20 20 21 1
+text5 0 6F1 DE2 107 2
+maintext 0 62B C56 C6 2
+text3 0 59F B3E 8C 2
+text7 0 537 A6E 68 2
+text9 0 4DC 9B8 5B 2
+text11 0 481 902 5B 2
+text2 0 433 866 4E 2
+text10 0 3FA 7F4 39 2
+text6 0 3D1 7A2 29 2
+text8 0 3AE 75C 23 2
+text12 0 394 728 1A 2
+text13 0 37A 6F4 1A 2
+text4 0 372 6E4 8 2
+text1 0 36B 6D6 7 2
+=======
+cstackBANK0 1 20 20 B 1
+maintext 0 727 E4E D1 2
+text5 0 6CC D98 5B 2
+text4 0 675 CEA 57 2
+strings 0 3 6 4B 2
+text3 0 63C C78 39 2
+text2 0 61A C34 22 2
+text7 0 600 C00 1A 2
+text8 0 5E6 BCC 1A 2
+text6 0 5DB BB6 B 2
+text1 0 5D4 BA8 7 2
+>>>>>>> origin/master

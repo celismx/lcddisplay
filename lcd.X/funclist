@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+___ftneg: CODE, 882 0 8
+___awdiv: CODE, 1244 0 91
+_pic_init: CODE, 875 0 7
+_Lcd_Init: CODE, 1153 0 91
+_Lcd_Write_Char: CODE, 1018 0 57
+___ftpack: CODE, 1335 0 104
+_main: CODE, 1579 0 198
+_Lcd_Cmd: CODE, 916 0 26
+___ftadd: CODE, 1777 0 263
+__initialization: CODE, 2040 0 4
+___attoft: CODE, 977 0 41
+_modf: CODE, 1075 0 78
+_Lcd_Port: CODE, 890 0 26
+___wmul: CODE, 942 0 35
+___fttol: CODE, 1439 0 140
+Total: 1169
+=======
+_Lcd_Write_String: CODE, 1562 0 34
+_pic_init: CODE, 1492 0 7
+_Lcd_Init: CODE, 1740 0 91
+__stringtab: STRING, 3 0 6
+__stringdata: STRING, 9 0 69
+_Lcd_Write_Char: CODE, 1596 0 57
+_main: CODE, 1831 0 209
+_Lcd_Cmd: CODE, 1536 0 26
+__initialization: CODE, 2040 0 4
+_Lcd_Set_Cursor: CODE, 1653 0 87
+_Lcd_Clear: CODE, 1499 0 11
+_Lcd_Port: CODE, 1510 0 26
+Total: 627
+>>>>>>> origin/master
